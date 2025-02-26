@@ -8,7 +8,7 @@ height=float(input("Escribe tu alrtura: "))
 
 ##3
 
-complex = complex(input("Un numero complejo"))
+complex = complex(input("Un numero complejo: "))
 
 ##4 triangle
 
@@ -78,3 +78,48 @@ pendienteM=float(ejeY2 -ejeY1 / ejeX2 - ejeX1)
 velocidadEcl=float((ejeY2-ejeY2)**2 / (ejeX2-ejeX1)**2)**0.5
 print("La pendiente es: ", pendienteM)
 print("La velocidad eclidiana es: ",velocidadEcl)
+
+#10 Compare the slopes
+
+print("")
+print("Vamos a comparar pendientes")
+compare= pendiente >= pendienteM
+print("¿La copmparacion indica que la primer pendiente es mayor o igual que la segunda?: ", compare )
+
+#11 Calcular valor de Y
+
+print("")
+X1=1
+Y1= (X1**2) + (6*X1) + 9
+print("cuando X vale 1 obtenemos que Y vale: ", Y1) 
+print( " Vemos que cuando son valores positivos se va demasiado del 0")
+print( " Asi que es mejor intentar con los negatvos")
+X4=-1
+Y4= (X4**2) + (6*X4) + 9
+print("cuando x vale -1 obtenemos que Y vale: ",Y4)
+X2= -2
+Y2= (X2**2) + (6*X2) + 9
+print("cuando X vale -2 obtenemos que Y vale: ", Y2)
+X3=-3
+Y3= (X3**2)+ (6*X3) + 9
+print("Cuando X vale -3 obtenemos que Y vale: ", Y3)
+
+#12 Comparacion de titanes
+
+print("")
+
+phyton= 2
+dragon= 3
+PhyandDragon= phyton>dragon
+print(" ¿ES verdad que dragon es mas vergas que phyton? ", PhyandDragon)
+
+#13 
+
+print("")
+dragono="on"
+phyton1= "luis"
+if "on" in phyton1:
+    print( "no esta en phyton")
+else:
+    print("esta en Dragon")
+
