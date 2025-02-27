@@ -111,15 +111,51 @@ print("")
 phyton= 2
 dragon= 3
 PhyandDragon= phyton>dragon
-print(" ¿ES verdad que dragon es mas vergas que phyton? ", PhyandDragon)
+print(" ¿ES verdad que dragon es mas vergas que phyton? ")
+print(PhyandDragon)
 
 #13 
 
 print("")
+print("¿On esta en dragon o phyton?")
 dragono="on"
 phyton1= "luis"
 if "on" in phyton1:
     print( "no esta en phyton")
 else:
-    print("esta en Dragon")
+    print("On esta en Dragon")
 
+#14
+
+print("")
+print("¿esta jerga en la siguinte oracion?")
+print("espero que este curso no este lleno de jerga")
+sentence="espero que este curso no este lleno de jerga "
+if "jerga" in sentence:
+    print("si esta jerga en la oracion")
+else:
+    print( "No no esta jerga en la oracion")
+
+#15
+
+print("")
+dragon15= "Peso pluma es el mas duro de mexico"
+phyton15= "El anciano ya no hace partidos en el ejido"
+print("Tengo dos oraciones, ¿Cual deice encendido?")
+print("phyton:",phyton15)
+print("dragon:", dragon15)
+if "encencido" in dragon15:
+     print("La palabra encendido esta en dragon")
+if "encendido " in phyton15:
+    print("La palabra esta en phyton")
+else:
+    print("No esta en ninguna de las dos")
+
+#16
+
+print("")
+
+print("Longitud del texto de la variable phyton")
+phyton16="Esta clase dura una hora y he aventajado poco"
+print(len(phyton16))
+print(str(len(phyton16)))
