@@ -158,4 +158,19 @@ print("")
 print("Longitud del texto de la variable phyton")
 phyton16="Esta clase dura una hora y he aventajado poco"
 print(len(phyton16))
-print(str(len(phyton16)))
+print(len(phyton16))
+
+#17
+
+print("")
+
+numero17=int(input("Ingresa un Numero entero para saber si es par: "))
+if numero17 % 2 == 0:
+    print("tu numero es PAR")
+else:
+    print("Tu numero no es PAR")
+
+#18
+
+print("")
+
