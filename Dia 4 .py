@@ -30,3 +30,25 @@ print("")
 print("Cambiando caracteres a mayuscula: ")
 company1= company.upper()
 print(company1)
+
+#Programa 7
+print("")
+print("Cambiando caracteres a minisculas: ")
+company2= company.lower()
+print(company2)
+
+#Programa 8 
+print("")
+print("Capitalizar sentence: ")
+company_capitalizar= company.capitalize()
+print(company_capitalizar)
+print("")
+print(" Titular sentence: ")
+company_titular= company.title()
+print(company_titular)
+print("")
+print("Swapcase sentence: ")
+company_swapcase= company.swapcase()
+print(company_swapcase)
+
+#Programa 9
