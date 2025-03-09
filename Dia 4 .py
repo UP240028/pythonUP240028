@@ -52,3 +52,37 @@ company_swapcase= company.swapcase()
 print(company_swapcase)
 
 #Programa 9
+print("")
+print("Cortar la primera palabra")
+company_cut= (company.split("Codificacion"))
+print((company_cut))
+
+#Programa 10
+print("")
+print("Esta presente la palabra Codificacion")
+if "Codificacion" in company:
+    print("La palabra codificacion se encuentra en la posicion")
+else:
+    print("La palabra Codificacion no se encuentra")
+
+#Programa 11
+print("")
+print("texto original: ",company)
+print(("Remplazando texto: "))
+companyTwo= company.replace("Codificacion","Phyton")
+print(companyTwo)
+
+#Programa 12
+
+print("")
+print(companyTwo)
+print("Cambiando el resto del texto: ")
+companyThree=companyTwo.replace("para todos","para todo el mundo")
+print(companyThree)
+
+#Programa 13
+print("")
+companysplit= (company.split())
+print(companysplit)
+
+#Programa 14
