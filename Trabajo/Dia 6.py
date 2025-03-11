@@ -27,12 +27,17 @@ print("")
 family_members=siblings + ("Tio Gallo", "Tia Polla")
 print(family_members)
 
-#ejercicio 6
+#Nivel 2
+#ejercicio 1
 print("")
 family_members= list(family_members)
 del family_members[5:7]
 print("Lista modificada,Padres borrados: ")
 print(family_members)
 
-#ejercicio 7
+#ejercicio 2
 print("")
+print("Nuevas cadenas:")
+fruits=("Naranja", "Limon", "Manzana", "Bananas")
+vegetables=("Lechuga", "Zanahorias", "Cebolla", "Rabano")
+
