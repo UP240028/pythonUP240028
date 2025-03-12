@@ -40,4 +40,4 @@ print("")
 print("Nuevas cadenas:")
 fruits=("Naranja", "Limon", "Manzana", "Bananas")
 vegetables=("Lechuga", "Zanahorias", "Cebolla", "Rabano")
-
+p_animal=()

@@ -227,11 +227,11 @@ countries = ['China', 'Rusia', 'EE. UU.', 'Finlandia', 'Suecia', 'Noruega', 'Din
 # Paso 1:
 n = len(countries)
 if n % 2 == 1:
-    middle_country = countries[n // 2] 
-    print("País del medio:", middle_country)
+    paises_medio = countries[n // 2] 
+    print("País del medio:", paises_medio)
 else:
-    middle_country = countries[n // 2 - 1:n // 2 + 1] 
-    print("Países del medio:", middle_country)
+    paises_medio = countries[n // 2 - 1:n // 2 + 1] 
+    print("Países del medio:", paises_medio)
 
 # Paso 2:
 half_index = (n // 2) + (n % 2)  
