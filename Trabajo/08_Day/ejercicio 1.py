@@ -41,3 +41,23 @@ print(estudiante["habilidades"])
 
 #ejercicio 7
 print("")
+estudiante["Habilidades"] = "Hiper foco"
+print(estudiante)
+
+#Obtenga las claves del diccionario como una lista
+Claves = estudiante.keys()
+print(Claves)
+
+#Obtener los valores del diccionario como una lista
+Valores = estudiante.values()
+print(Valores)
+
+#Cambie el diccionario a una lista de tuplas usando el método items()
+print(estudiante.items())
+
+#Eliminar uno de los elementos del diccionario
+estudiante.pop("Habilidades")
+print(estudiante)
+
+#Eliminar uno de los diccionarios
+del dog
