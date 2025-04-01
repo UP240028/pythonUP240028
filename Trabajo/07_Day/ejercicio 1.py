@@ -22,3 +22,5 @@ print(it_companies)
 print("")
 print("Diferencia entre remove y discard")
 print("La diferencia es de que el discard sirve para descargar un elemento por una vez y el remove lo elimina ")
+
+print("Revisado")

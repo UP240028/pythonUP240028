@@ -12,3 +12,4 @@ print("")
 del A
 del B
 print("")
+print("Revisado")

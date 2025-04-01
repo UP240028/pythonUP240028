@@ -174,3 +174,5 @@ index_of_redux = full_stack_copy.index('Redux')
 full_stack_copy.insert(index_of_redux + 1, 'Python')
 full_stack_copy.insert(index_of_redux + 2, 'SQL')
 print("Lista completa con Python y SQL:", full_stack_copy)
+
+print("Revisado")

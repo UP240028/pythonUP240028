@@ -43,3 +43,5 @@ print("")
 #Program 4:
 print(A.isdisjoint(B))
 print("")
+
+print("Revisado")
