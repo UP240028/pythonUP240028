@@ -69,3 +69,5 @@ first_three_countries = first_half[:3]
 
 print("Primeros tres países:", first_three_countries)
 print("Países escandinavos:", scandinavian_countries)
+
+print("Revisado")
