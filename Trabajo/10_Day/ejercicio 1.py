@@ -48,14 +48,14 @@ for item1 in item:
 
 #ejercicio 7
 print("")
-print("Ejercicio 7:")
+print("Ejercicio 7:Solo numeros pares")
 for i in range(100):
     if i % 2 == 0:
         print(i)
 
 #ejercicio 8
 print("")
-print("Ejercicio 7:")
+print("Ejercicio 8:Solo numeros impares")
 for i in range(100):
     if i % 2 !=0:
         print(i)
