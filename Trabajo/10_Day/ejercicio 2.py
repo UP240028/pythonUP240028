@@ -18,3 +18,5 @@ for i in range(101):
         odd_sum += i
 print("La suma de todos los números pares es:", even_sum)
 print("Y la suma de todos los números impares es:", odd_sum)
+
+print("revisado")
